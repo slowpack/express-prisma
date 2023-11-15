@@ -1,7 +1,7 @@
 import https from "https";
 import fs from "fs";
 const fileUrl = 'https://raw.githubusercontent.com/xx025/carrot/main/README.md';
-const destination = '/project/chat-server/cc.md';
+const destination = '/workspaces/express-prisma/download/cc.md';
 
 https.get(fileUrl, (response) =>  {
   let data = '';
